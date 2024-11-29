@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+amp-story {
+    --background-image: url('your-background-image.jpg');
+  }
+  .custom-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+
+  amp-story-player {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  amp-story-player::after {
+    content: "Custom Story Player";
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+
+  .bgDiv{
+    background: #12334e;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    height: 100%;
+  }
+
+  ._f76a7c5 {
+    position: absolute;
+    pointer-events: none;
+    left: -19.41748%;
+    top: -11.48867%;
+    width: 38.59223%;
+    height: 22.16828%;
+    opacity: 1;
+}
+
+.page-space{
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: calc(.84375* 100%);
+    margin: auto 0;
+}
+.pageSpace h2 {
+    font-size: 2rem;
+}
+.pageSpace{
+    margin: 3rem 2rem;
+    text-align: center;
+}
+
+.i-amphtml-layout-fill,.i-amphtml-layout-fill.i-amphtml-notbuilt,[layout=fill]:not(.i-amphtml-layout-fill),body noscript>* {
+    display: block;
+    overflow: hidden!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+.heroIMage{
+    position: absolute;
+    pointer-events: none;
+    left: -.24272%;
+    top: 21.0356%;
+    width: 100%;
+    height: 88.83495%;
+    opacity: 1;
+}
+.desc{
+    margin-top: 3rem;
+}
